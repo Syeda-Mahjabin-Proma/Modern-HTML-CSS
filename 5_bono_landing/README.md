@@ -4,4 +4,4 @@ This project showcases a **landing page design** for a web application using **H
 a **flexbox-based main content section** with a **contact form** and **hero text**, and includes **modern styling** such as
 **gradients, custom fonts, and hover effects**. The layout is fully responsive, adapting to different screen sizes with **media queries** for mobile devices.
 
-Live demo: [Bono App Landing Page](http://github.com/Syeda-Mahjabin-Proma/Modern-HTML-CSS/tree/main/5_bono_landing)
+Live demo: [Bono App Landing Page](https://syeda-mahjabin-proma.github.io/Modern-HTML-CSS/5_bono_landing/)

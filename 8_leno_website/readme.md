@@ -6,4 +6,4 @@ pricing options. Built with HTML, CSS, JavaScript, and responsive design, it ens
 menu and video modal for enhanced interactivity.
 
 
-Live demo: [Tutor Landing Page](https://syeda-mahjabin-proma.github.io/Modern-HTML-CSS/8_leno_website/)
+Live demo: [LENO](https://syeda-mahjabin-proma.github.io/Modern-HTML-CSS/8_leno_website/)

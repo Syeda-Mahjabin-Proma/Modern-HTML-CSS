@@ -91,3 +91,35 @@ h2 {
     background: #f4f4f4;
     border-bottom: 1px solid #ccc;
 }
+
+@media (max-width: 768px) {
+
+    /* Header */
+    .header {
+        padding: 25px;
+        text-align: center;
+    }
+
+    /* Navigation - Stack vertically */
+    .main-menu {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .main-menu a {
+        font-size: 18px;
+    }
+
+    /* Main Layout - Stack section and aside */
+    .main {
+        flex-direction: column;
+        gap: 40px;
+        padding: 20px;
+    }
+
+    /* Sidebar full width */
+    .main aside {
+        width: 100%;
+    }
+}

@@ -314,7 +314,7 @@ img {
 
 /* Info Section */
 .info-container {
-  background: url('images/audience.jpg') top center/cover no-repeat;
+  background: url('../images/audience.jpg') top center/cover no-repeat;
   display: flex;
 }
 

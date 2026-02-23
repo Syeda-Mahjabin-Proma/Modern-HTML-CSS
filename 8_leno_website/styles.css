@@ -141,8 +141,7 @@ img {
 
 /* Hero */
 .hero {
-  background: #000 url('../images/header-background.jpg') center center/cover
-    no-repeat;
+  background: #000 url('./images/header-background.jpg') center center/cover no-repeat;
   padding: 11.5rem 2rem 8rem;
 }
 
@@ -290,8 +289,7 @@ img {
 
 /* Preview */
 .preview {
-  background: url('../images/video-background.jpg') center center/cover
-    no-repeat;
+  background: url('./images/video-background.jpg') center center/cover no-repeat;
 }
 
 .preview__container {
@@ -513,8 +511,7 @@ img {
 
 /* Download */
 .download {
-  background: #000 url('../images/download-background.jpg') center center/cover
-    no-repeat;
+  background: #000 url('./images/download-background.jpg') center center/cover no-repeat;
   padding: 11.5rem 2rem 8rem;
 }
 
@@ -597,8 +594,7 @@ img {
 
 /* Inner Header */
 .inner-header {
-  background: #000 url('../images/header-background.jpg') center center/cover
-    no-repeat;
+  background: #000 url('./images/header-background.jpg') center center/cover no-repeat;
   padding: 10rem 2rem 6rem;
 }
 
@@ -695,6 +691,7 @@ img {
 
 /* Media Queries */
 @media (max-width: 992px) {
+
   /* Hero */
   .hero {
     padding: 10rem;
@@ -822,6 +819,7 @@ img {
 }
 
 @media (max-width: 768px) {
+
   /* Navbar */
   .navbar__menu {
     display: none;

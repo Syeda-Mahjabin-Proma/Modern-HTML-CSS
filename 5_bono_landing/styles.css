@@ -13,11 +13,9 @@ body {
 
 .wrapper {
   min-height: 100vh;
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       rgba(255, 64, 50, 0.8),
-      rgba(71, 17, 116, 0.9)
-    ),
+      rgba(71, 17, 116, 0.9)),
     url('../images/background.jpg') no-repeat center/cover;
 }
 
@@ -56,7 +54,7 @@ body {
   display: flex;
   gap: 50px;
   max-width: 1100px;
-  margin: 200px auto;
+  margin: auto;
   justify-content: center;
   align-items: start;
   height: 100%;

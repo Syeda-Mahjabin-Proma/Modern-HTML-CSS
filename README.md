@@ -33,8 +33,8 @@ This repository includes multiple beginner-to-intermediate level projects focusi
 | **6_lumina_creative** | Multi-section Site | Creative website layout with multiple sections   | [Link](https://syeda-mahjabin-proma.github.io/Modern-HTML-CSS/6_lumina_creative/) | [Visit](https://github.com/Syeda-Mahjabin-Proma/Modern-HTML-CSS/tree/main/6_lumina_creative) |
 | **7_tutor_website** | Tutor Website | Educational/tutor service landing site | [Link](https://syeda-mahjabin-proma.github.io/Modern-HTML-CSS/7_tutor_website/) | [Visit](https://github.com/Syeda-Mahjabin-Proma/Modern-HTML-CSS/tree/main/7_tutor_website) |
 | **8_leno_app**        | Productivity & Health App | Mobile-first app to boost productivity and track health for developers and creators | [Link](https://syeda-mahjabin-proma.github.io/Modern-HTML-CSS/8_leno_website/) | [Visit](https://github.com/Syeda-Mahjabin-Proma/Modern-HTML-CSS/tree/main/8_leno_website) | 
-| **Flag**        | BD Flag | Designed the Flag of Bangladesh with HTML and CSS | [Link](https://syeda-mahjabin-proma.github.io/Modern-HTML-CSS/task/1_1_flag/) | [Visit](https://github.com/Syeda-Mahjabin-Proma/Modern-HTML-CSS/tree/main/task/1_1_flag) | 
-
+| **9_Flag**        | BD Flag | Designed the Flag of Bangladesh with HTML and CSS | [Link](https://syeda-mahjabin-proma.github.io/Modern-HTML-CSS/task/1_1_flag/) | [Visit](https://github.com/Syeda-Mahjabin-Proma/Modern-HTML-CSS/tree/main/task/1_1_flag) | 
+| **10_Bento Gallery**        | Bento Box style gallery | Designed a gallery using CSS grid | [Link](https://syeda-mahjabin-proma.github.io/Modern-HTML-CSS/task/1_2_grid/) | [Visit](https://github.com/Syeda-Mahjabin-Proma/Modern-HTML-CSS/tree/main/task/1_2_grid) |
 
 ---
 

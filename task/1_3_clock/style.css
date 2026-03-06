@@ -55,6 +55,7 @@ body {
     transform: translateX(-50%) rotate(90deg);
 }
 
+
 .minute-hand {
     width: 5px;
     height: 28%;
@@ -62,12 +63,13 @@ body {
     z-index: 9;
 }
 
+
 .second-hand {
     width: 2px;
     height: 35%;
     background-color: red;
     z-index: 10;
-    /* animation: rotate-second 60s linear infinite; */
+    animation: rotate-second 60s linear infinite;
 }
 
 @keyframes rotate-second {

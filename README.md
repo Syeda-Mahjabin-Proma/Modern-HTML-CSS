@@ -35,7 +35,7 @@ This repository includes multiple beginner-to-intermediate level projects focusi
 | **8_leno_app**        | Productivity & Health App | Mobile-first app to boost productivity and track health for developers and creators | [Link](https://syeda-mahjabin-proma.github.io/Modern-HTML-CSS/8_leno_website/) | [Visit](https://github.com/Syeda-Mahjabin-Proma/Modern-HTML-CSS/tree/main/8_leno_website) | 
 | **9_Flag**        | BD Flag | Designed the Flag of Bangladesh with HTML and CSS | [Link](https://syeda-mahjabin-proma.github.io/Modern-HTML-CSS/task/1_1_flag/) | [Visit](https://github.com/Syeda-Mahjabin-Proma/Modern-HTML-CSS/tree/main/task/1_1_flag) | 
 | **10_Bento Gallery**        | Bento Box style gallery | Designed a gallery using CSS grid | [Link](https://syeda-mahjabin-proma.github.io/Modern-HTML-CSS/task/1_2_grid/) | [Visit](https://github.com/Syeda-Mahjabin-Proma/Modern-HTML-CSS/tree/main/task/1_2_grid) |
-| **11_Analog Clock**        | Analog Clock | Analog clock using CSS and JS | [Link](https://syeda-mahjabin-proma.github.io/Modern-HTML-CSS/task/1_3_clock/) | [Visit](https://github.com/Syeda-Mahjabin-Proma/Modern-HTML-CSS/tree/main/task/1_3_clock) |
+| **11_Analog Clock**        | Analog Clock UI| A clock UI using CSS animation | [Link](https://syeda-mahjabin-proma.github.io/Modern-HTML-CSS/task/1_3_clock/) | [Visit](https://github.com/Syeda-Mahjabin-Proma/Modern-HTML-CSS/tree/main/task/1_3_clock) |
 
 ---
 

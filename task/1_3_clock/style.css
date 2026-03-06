@@ -61,6 +61,17 @@ body {
     height: 28%;
     background-color: black;
     z-index: 9;
+    animation: rotate-min 80s linear infinite;
+}
+
+@keyframes rotate-min {
+    from {
+        transform: translateX(-50%) rotate(0deg);
+    }
+
+    to {
+        transform: translateX(-50%) rotate(360deg);
+    }
 }
 
 

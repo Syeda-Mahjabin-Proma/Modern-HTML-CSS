@@ -67,12 +67,23 @@ body {
     height: 35%;
     background-color: red;
     z-index: 10;
+    /* animation: rotate-second 60s linear infinite; */
+}
+
+@keyframes rotate-second {
+    from {
+        transform: translateX(-50%) rotate(0deg);
+    }
+
+    to {
+        transform: translateX(-50%) rotate(360deg);
+    }
 }
 
 .center-dot {
     width: 10px;
     height: 10px;
-    background-color: silver;
+    background-color: rgb(109, 108, 108);
     border-radius: 50%;
     position: absolute;
     top: 50%;

@@ -26,13 +26,13 @@ body {
 
 .clock span {
     position: absolute;
-    transform: rotate(calc(30deg * var(--i)));
+    transform: rotate(calc(30deg * var(--num_loc)));
     inset: 10px;
     text-align: center;
 }
 
 .clock span b {
-    transform: rotate(calc(-30deg * var(--i)));
+    transform: rotate(calc(-30deg * var(--num_loc)));
     display: inline-block;
     font-size: 25px;
 }

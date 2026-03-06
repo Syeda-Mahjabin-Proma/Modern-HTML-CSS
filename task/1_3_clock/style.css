@@ -30,6 +30,24 @@ body {
     transform-origin: bottom;
 }
 
+.hour-hand {
+    width: 4px;
+    height: 22%;
+    background-color: black;
+    z-index: 8;
+    animation: rotate-hour 120s linear infinite;
+}
+
+@keyframes rotate-hour {
+    from {
+        transform: translateX(-50%) rotate(0deg);
+    }
+
+    to {
+        transform: translateX(-50%) rotate(360deg);
+    }
+}
+
 .minute-hand {
     width: 3px;
     height: 30%;
@@ -51,7 +69,7 @@ body {
 
 .second-hand {
     width: 2px;
-    height: 35%;
+    height: 38%;
     background-color: red;
     z-index: 10;
     animation: rotate-second 60s linear infinite;

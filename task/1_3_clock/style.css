@@ -5,6 +5,7 @@
 
 body {
     height: 100vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,6 +23,7 @@ body {
     position: relative;
 }
 
+
 .hand {
     position: absolute;
     bottom: 50%;
@@ -30,39 +32,22 @@ body {
     transform-origin: bottom;
 }
 
-.hour-hand {
-    width: 4px;
-    height: 22%;
-    background-color: black;
-    z-index: 8;
-    animation: rotate-hour 120s linear infinite;
-}
-
-@keyframes rotate-hour {
-    from {
-        transform: translateX(-50%) rotate(0deg);
-    }
-
-    to {
-        transform: translateX(-50%) rotate(360deg);
-    }
-}
 
 .minute-hand {
     width: 3px;
     height: 30%;
     background-color: black;
     z-index: 9;
-    animation: rotate-min 80s linear infinite;
+    /* animation: rotate-min 80s linear infinite; */
 }
 
 @keyframes rotate-min {
     from {
-        transform: translateX(-50%) rotate(0deg);
+        transform: rotate(0deg);
     }
 
     to {
-        transform: translateX(-50%) rotate(360deg);
+        transform: rotate(360deg);
     }
 }
 
@@ -72,16 +57,16 @@ body {
     height: 38%;
     background-color: red;
     z-index: 10;
-    animation: rotate-second 60s linear infinite;
+    /* animation: rotate-second 30s linear infinite; */
 }
 
 @keyframes rotate-second {
     from {
-        transform: translateX(-50%) rotate(0deg);
+        transform: rotate(0deg);
     }
 
     to {
-        transform: translateX(-50%) rotate(360deg);
+        transform: rotate(360deg);
     }
 }
 

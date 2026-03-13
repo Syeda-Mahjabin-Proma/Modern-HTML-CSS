@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <nav id="navbar">
+        <a class="nav-logo" href="#">
+            <div class="nav-logo-icon">
+                <img src="images/logo1.png" alt="Logo" />
+            </div>
+            <span class="nav-logo-text">Restaurant</span>
+        </a>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Portfolio</a></li>
+            <li><a href="#testimonials">Clients</a></li>
+            <li><a href="#footer">Blog</a></li>
+            <li><a href="#footer">Contact</a></li>
+        </ul>
+
+        <button class="btn-book-table" onclick="document.getElementById('booking').scrollIntoView({behavior:'smooth'})">
+            BOOK A TABLE
+        </button>
+
+        <button class="nav-hamburger" id="hamburger" aria-label="Open menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <section id="hero">
+        <div class="hero-container">
+
+            <div class="hero-left">
+                <h1>Taste the Authentic<br>Saudi Cuisine</h1>
+                <p>Among the best Saudi chefs in the world, serving you something beyond flavor.</p>
+                <a href="#menu" class="btn-explore">EXPLORE MENU</a>
+            </div>
+
+            <div class="hero-right">
+                <div class="hero-image-box">
+                    <img src="images/img1.jpg" alt="Saudi BBQ dish" />
+                    <div class="today-badge">TODAY<br>OFFER</div>
+                    <div class="hero-star">
+                        <img src="images/vec1.png" alt="" />
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="about">
+        <div class="about-container">
+            <div class="about-top-row">
+                <div class="about-img-col">
+                    <img src="images/burger.jpg" alt="Burger" />
+                    <div class="stat-card">
+                        <div class="stat-ring">50+</div>
+                        <div class="stat-text">
+                            <strong>Market</strong>
+                            <span>Experiences</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-text-col">
+                    <div class="about-tabs">
+                        <button class="about-tab active">About</button>
+                        <button class="about-tab">Experience</button>
+                        <button class="about-tab">Contact</button>
+                    </div>
+
+                    <h2>Exceptional Culinary Experience and Delicious Food</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare non sed est cursus. Vel hac
+                        convallis ipsum, facilisi odio pellentesque bibendum viverra tempus. Lorem ipsum dolor sit amet
+                        consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore magna minim veniam
+                        nostrud exercitation.</p>
+
+                    <div class="about-actions">
+                        <button class="btn-yellow">ABOUT MORE</button>
+                        <a href="tel:+883426739485" class="phone-cta">
+                            <img src="images/phoneIcon.png" class="phone-icon" alt="phone icon">
+                            +88 3426 739 485
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="features-list">
+                <div class="feature-row">
+                    <div class="feature-icon-wrap">
+                        <img src="images/delivery.png" alt="" />
+                    </div>
+                    <div class="feature-label">
+                        <h4>Fast Delivery</h4>
+                        <p>Within 30 minutes</p>
+                    </div>
+                </div>
+
+                <div class="feature-row">
+                    <div class="feature-icon-wrap">
+                        <img src="images/dining.png" alt="">
+                    </div>
+                    <div class="feature-label">
+                        <h4>Absolute Dining</h4>
+                        <p>Best buffet restaurant</p>
+                    </div>
+                </div>
+
+                <div class="feature-row">
+                    <div class="feature-icon-wrap">
+                        <img src="images/pickup.png" alt="">
+                    </div>
+                    <div class="feature-label">
+                        <h4>Pickup Delivery</h4>
+                        <p>Grab your food order</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="about-deco-right">
+            <img src="images/f2Side.png" alt="" />
+        </div>
+
+    </section>
+
+    <section id="menu">
+        <div class="menu-deco-left">
+            <img src="images/f2Side.png" alt="" />
+        </div>
+
+        <div class="menu-container">
+            <div class="section-top">
+                <div>
+                    <div class="section-tag">Crispy, Every Bite Taste</div>
+                    <h2 class="section-title">Popular Food Items</h2>
+                </div>
+                <div class="carousel-nav">
+                    <button class="carousel-btn">
+                        <img src="images/leftArrow.png" class="arrow-icon" alt="Previous">
+                    </button>
+                    <button class="carousel-btn">
+                        <img src="images/rightArrow.png" class="arrow-icon" alt="Next">
+                    </button>
+                </div>
+            </div>
+
+            <div class="food-cards-grid">
+                <div class="food-card">
+                    <img src="images/burger2.png" alt="Vegetables Burger" />
+                    <div class="food-card-divider"></div>
+                    <h3>Vegetables Burger</h3>
+                    <p>Barbecue Italian cuisine pizza</p>
+                </div>
+                <div class="food-card">
+                    <img src="images/pizza.png" alt="Spacial Pizza" />
+                    <div class="food-card-divider"></div>
+                    <h3>Spacial Pizza</h3>
+                    <p>Barbecue Italian cuisine pizza</p>
+                </div>
+                <div class="food-card">
+                    <img src="images/frenchFries.png" alt="Spacial French Fries" />
+                    <div class="food-card-divider"></div>
+                    <h3>Spacial French Fries</h3>
+                    <p>Barbecue Italian cuisine</p>
+                </div>
+                <div class="food-card">
+                    <img src="images/chicken.png" alt="Cuisine Chicken" />
+                    <div class="food-card-divider"></div>
+                    <h3>Cuisine Chicken</h3>
+                    <p>Japanese Cuisine Chicken</p>
+                </div>
+            </div>
+
+            <div class="carousel-nav-bottom">
+                <button class="carousel-btn">
+                    <img src="images/leftArrow.png" class="arrow-icon" alt="Previous">
+                </button>
+                <button class="carousel-btn">
+                    <img src="images/rightArrow.png" class="arrow-icon" alt="Next">
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="booking">
+        <div class="booking-left">
+            <div class="section-tag">Book Now</div>
+            <h2>Book Your Table</h2>
+            <p>Enim tempor eget pharetra facilisis sed maecenas adipiscing. Eu leo molestie vel, ornare non id
+                blandit netus.</p>
+
+            <div class="form-row">
+                <input class="form-field" type="text" placeholder="Your Name *" required />
+                <input class="form-field" type="email" placeholder="Your Email" />
+            </div>
+            <div class="form-row">
+                <div class="field-wrap">
+                    <input class="form-field" type="date" placeholder="Reservation Date" />
+
+                    <span class="field-icon">
+                        <img src="images/cal.png" alt="calendar icon">
+                    </span>
+                </div>
+                <div class="field-wrap">
+                    <input class="form-field" type="text" placeholder="Total People" min="1" />
+
+                    <span class="field-icon">
+                        <img src="images/peopleBtn.png" alt="sort icon">
+                    </span>
+                </div>
+            </div>
+            <div class="form-row single">
+                <textarea class="form-field" placeholder="Message"></textarea>
+            </div>
+            <button class="btn-book-now" type="submit">BOOK NOW</button>
+        </div>
+
+    </section>
+
+    <section id="testimonials">
+        <div class="testi-deco-left">
+            <img src="images/reviewLeft.png" alt="" />
+        </div>
+        <div class="testi-deco-right">
+            <img src="images/reviewRight.png" alt="" />
+        </div>
+
+        <div class="testi-container">
+            <div class="section-top">
+                <div>
+                    <div class="section-tag">Crispy, Every Bite Taste</div>
+                    <h2 class="section-title">What Some of My Customers Say</h2>
+                </div>
+                <div class="carousel-nav">
+                    <button class="carousel-btn">
+                        <img src="images/leftArrow.png" class="arrow-icon" alt="Previous">
+                    </button>
+                    <button class="carousel-btn">
+                        <img src="images/rightArrow.png" class="arrow-icon" alt="Next">
+                    </button>
+                </div>
+            </div>
+
+            <div class="testi-card">
+
+                <div class="testi-quote-panel">
+                    <div class="quote-line">
+                        <span>"</span>
+                        <blockquote>
+                            You can't go wrong with Chicken Mandi, I had it twice. The chicken was cooked
+                            perfectly, juicy & soft (usually mandi chicken is a bit dry). I would
+                            defiantly recommend it.
+                        </blockquote>
+                    </div>
+
+                    <div>
+                        <div class="testi-author-row">
+                            <div>
+                                <div class="author-name">Khalid Al Dawsry</div>
+                                <div class="author-location">Jeddah, Saudi</div>
+                            </div>
+                            <div class="author-avatar">
+                                <img src="images/reviewPerson.png" alt="Khalid Al Dawsry" />
+                            </div>
+                        </div>
+                        <div class="author-separator"></div>
+
+                    </div>
+                </div>
+
+                <div class="testi-image-panel">
+                    <img src="images/review.png" alt="Chicken Mandi dish" />
+                    <button class="play-btn">
+                        <img src="images/Play.png" alt="Play" />
+                    </button>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="footer-inner">
+            <h2>We Ready to Have You the Best Dining Experiences</h2>
+            <div class="footer-info-grid">
+                <div class="footer-info-col">
+                    <div class="footer-icon"><img src="images/clock.png" alt="Clock"></div>
+                    <h4>Opening Hours</h4>
+                    <p>Monday - Sunday<br>9:00 AM to 11:30 PM</p>
+                </div>
+
+                <div class="footer-info-col">
+                    <div class="footer-icon"><img src="images/call'.png" alt="Phone"></div>
+                    <h4>Let's Talk</h4>
+                    <p>Phone: 1-800-222-4545<br>Fax: 1-800-222-4545</p>
+                </div>
+
+                <div class="footer-info-col">
+                    <div class="footer-icon"><img src="images/email.png" alt="Email"></div>
+                    <h4>Book a Table</h4>
+                    <p>Email: demo@website.com<br>Support: support@website.com</p>
+                </div>
+
+                <div class="footer-info-col">
+                    <div class="footer-icon"><img src="images/map.png" alt="Location"></div>
+                    <h4>Our Address</h4>
+                    <p>123 Street, New York City,<br>United States Of America.</p>
+                </div>
+            </div>
+
+            <div class="social-row">
+                <a href="#" class="social-btn"><img src="images/fb.png" alt="Facebook" /></a>
+                <a href="#" class="social-btn"><img src="images/x.png" alt="Twitter" /></a>
+                <a href="#" class="social-btn"><img src="images/ig.png" alt="Instagram" /></a>
+                <a href="#" class="social-btn"><img src="images/ln.png" alt="LinkedIn" /></a>
+            </div>
+            <p class="footer-copy">&#169; 2023 All Rights Reserved</p>
+        </div>
+    </footer>
+
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+        hamburger.addEventListener('click', () => navLinks.classList.toggle('open'));
+        navLinks.querySelectorAll('a').forEach(a =>
+            a.addEventListener('click', () => navLinks.classList.remove('open'))
+        );
+    </script>
+
+</body>
+
+</html>

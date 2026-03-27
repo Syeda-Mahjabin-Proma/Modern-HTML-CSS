@@ -579,12 +579,11 @@ nav {
     margin-bottom: 40px;
 }
 
-/* Container */
 .gallery-mosaic {
     position: relative;
     width: 1799px;
     height: 780px;
-    margin: 0 auto 0 5%;
+    margin: 0 auto;
 }
 
 .gallery-item img {
